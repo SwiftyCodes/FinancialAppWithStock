@@ -14,6 +14,7 @@
 		1002A06A2A1C81DF0064C149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1002A0692A1C81DF0064C149 /* Assets.xcassets */; };
 		1002A06D2A1C81DF0064C149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1002A06B2A1C81DF0064C149 /* LaunchScreen.storyboard */; };
 		1002A07B2A1C83370064C149 /* Financial_App_with_StockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002A07A2A1C83370064C149 /* Financial_App_with_StockTests.swift */; };
+		1002A0872A1C9D0D0064C149 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002A0862A1C9D0D0064C149 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		1002A06E2A1C81DF0064C149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1002A0782A1C83370064C149 /* FinancialAppWithStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialAppWithStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1002A07A2A1C83370064C149 /* Financial_App_with_StockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financial_App_with_StockTests.swift; sourceTree = "<group>"; };
+		1002A0862A1C9D0D0064C149 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +80,11 @@
 		1002A05F2A1C81DE0064C149 /* Financial App with Stock */ = {
 			isa = PBXGroup;
 			children = (
-				1002A0602A1C81DE0064C149 /* AppDelegate.swift */,
-				1002A0622A1C81DE0064C149 /* SceneDelegate.swift */,
-				1002A0642A1C81DE0064C149 /* SearchViewController.swift */,
-				1002A0662A1C81DE0064C149 /* Main.storyboard */,
+				1002A0852A1C9CDE0064C149 /* App Files */,
+				1002A0842A1C9CD00064C149 /* Model */,
+				1002A0822A1C9CC20064C149 /* Views */,
+				1002A0832A1C9CC70064C149 /* Controller */,
 				1002A0692A1C81DF0064C149 /* Assets.xcassets */,
-				1002A06B2A1C81DF0064C149 /* LaunchScreen.storyboard */,
 				1002A06E2A1C81DF0064C149 /* Info.plist */,
 			);
 			path = "Financial App with Stock";
@@ -95,6 +96,40 @@
 				1002A07A2A1C83370064C149 /* Financial_App_with_StockTests.swift */,
 			);
 			path = FinancialAppWithStockTests;
+			sourceTree = "<group>";
+		};
+		1002A0822A1C9CC20064C149 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1002A0862A1C9D0D0064C149 /* SearchTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1002A0832A1C9CC70064C149 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1002A0642A1C81DE0064C149 /* SearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1002A0842A1C9CD00064C149 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1002A0852A1C9CDE0064C149 /* App Files */ = {
+			isa = PBXGroup;
+			children = (
+				1002A0622A1C81DE0064C149 /* SceneDelegate.swift */,
+				1002A0602A1C81DE0064C149 /* AppDelegate.swift */,
+				1002A0662A1C81DE0064C149 /* Main.storyboard */,
+				1002A06B2A1C81DF0064C149 /* LaunchScreen.storyboard */,
+			);
+			path = "App Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1002A0652A1C81DE0064C149 /* SearchViewController.swift in Sources */,
+				1002A0872A1C9D0D0064C149 /* SearchTableViewCell.swift in Sources */,
 				1002A0612A1C81DE0064C149 /* AppDelegate.swift in Sources */,
 				1002A0632A1C81DE0064C149 /* SceneDelegate.swift in Sources */,
 			);
