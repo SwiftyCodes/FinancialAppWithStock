@@ -15,6 +15,8 @@
 		1002A06D2A1C81DF0064C149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1002A06B2A1C81DF0064C149 /* LaunchScreen.storyboard */; };
 		1002A07B2A1C83370064C149 /* Financial_App_with_StockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002A07A2A1C83370064C149 /* Financial_App_with_StockTests.swift */; };
 		1002A0872A1C9D0D0064C149 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002A0862A1C9D0D0064C149 /* SearchTableViewCell.swift */; };
+		1002A08A2A1CA1B60064C149 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002A0892A1CA1B60064C149 /* APIServices.swift */; };
+		1002A08C2A1CA3880064C149 /* SearchResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002A08B2A1CA3880064C149 /* SearchResultsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		1002A0782A1C83370064C149 /* FinancialAppWithStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialAppWithStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1002A07A2A1C83370064C149 /* Financial_App_with_StockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financial_App_with_StockTests.swift; sourceTree = "<group>"; };
 		1002A0862A1C9D0D0064C149 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		1002A0892A1CA1B60064C149 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		1002A08B2A1CA3880064C149 /* SearchResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		1002A05F2A1C81DE0064C149 /* Financial App with Stock */ = {
 			isa = PBXGroup;
 			children = (
+				1002A0882A1CA1AD0064C149 /* Services */,
 				1002A0852A1C9CDE0064C149 /* App Files */,
 				1002A0842A1C9CD00064C149 /* Model */,
 				1002A0822A1C9CC20064C149 /* Views */,
@@ -117,6 +122,7 @@
 		1002A0842A1C9CD00064C149 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1002A08B2A1CA3880064C149 /* SearchResultsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,6 +136,14 @@
 				1002A06B2A1C81DF0064C149 /* LaunchScreen.storyboard */,
 			);
 			path = "App Files";
+			sourceTree = "<group>";
+		};
+		1002A0882A1CA1AD0064C149 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1002A0892A1CA1B60064C149 /* APIServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1002A08A2A1CA1B60064C149 /* APIServices.swift in Sources */,
 				1002A0652A1C81DE0064C149 /* SearchViewController.swift in Sources */,
+				1002A08C2A1CA3880064C149 /* SearchResultsModel.swift in Sources */,
 				1002A0872A1C9D0D0064C149 /* SearchTableViewCell.swift in Sources */,
 				1002A0612A1C81DE0064C149 /* AppDelegate.swift in Sources */,
 				1002A0632A1C81DE0064C149 /* SceneDelegate.swift in Sources */,
