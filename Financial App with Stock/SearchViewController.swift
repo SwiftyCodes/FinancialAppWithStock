@@ -27,7 +27,7 @@ class SearchViewController: UITableViewController {
     }
     
     func setupNavigationBar(){
-        self.title = "Stocks"
+        self.title = "Company"
         navigationItem.searchController = searchController
     }
 }
